@@ -1,0 +1,8 @@
+prefix=/home/aaeon/vision_ws/devel
+
+Name: stag_ros
+Description: Description of stag_ros
+Version: 0.2.2
+Cflags: -I/home/aaeon/vision_ws/devel/include -I/home/aaeon/vision_ws/src/stag_ros/include -I/home/aaeon/vision_ws/src/stag_ros/src/stag
+Libs: -L${prefix}/lib -lstag_ros
+Requires: camera_info_manager cv_bridge geometry_msgs image_transport message_generation message_runtime nodelet roscpp sensor_msgs std_msgs

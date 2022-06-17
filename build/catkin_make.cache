@@ -1,0 +1,2 @@
+stag_ros:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/aaeon/vision_ws/devel -DCMAKE_INSTALL_PREFIX=/home/aaeon/vision_ws/install -G Unix Makefiles
